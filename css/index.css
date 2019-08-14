@@ -4,7 +4,10 @@
 	font-family: "微软雅黑";
 	list-style: none;
 }
-
+body{
+	margin-right: -5px;
+	overflow-x: hidden;
+}
 /*清除浮动*/
 .clearfix::after{
 	content: "\20";
@@ -489,7 +492,7 @@ color: #ff6700;
 	width: 76px; height: 82px;display: block;float: left;position: relative;
 	}
 .left-sub-opt ul li a{
-	text-decoration: none; color: #cdcdcd; width: 70px; height: :;px;display: block;
+	text-decoration: none; color: #cdcdcd; width: 70px; height: 60px;display: block;
 	font-size: 12px; text-align: center;padding-top: 20px;
 }
 /*细线-before*/
@@ -992,11 +995,11 @@ margin: 0 9.5px;	width: 1px;height: 25px;background:rgba(161, 160, 160, 0.6);
 
 /* 内容 */
 .cont{
-
+   height: 461px;
 }
 .cont dl{
 	height: 414px;	border-top: 1px solid #ff6700;padding-top: 45px;
-	text-align: center;position:relative;transition: all .1s linear;	margin-bottom: 30px;
+	text-align: center;position:relative;transition: all .1s linear;	
 }
 
 /* 黄色边框 */
@@ -1092,6 +1095,12 @@ margin: 0 9.5px;	width: 1px;height: 25px;background:rgba(161, 160, 160, 0.6);
 }
 
 /* 视频 ,修改设置通用高度*/
+.video-wrap{
+	
+}
+.video-wrap>ul{
+	display: inline-block; width: 100%;
+}
 .video-wrap .see-all{
 	color:rgb(109, 106, 106);transition: all .2s linear;
 }

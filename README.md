@@ -9,5 +9,5 @@
 2. jquery实现轮播图的切换。
 3. iconfont实现页面的图标。
 #### 效果如下：
-<img src="https://github.com/hyisboy/ximidemo.gitbub.io/blob/master/img/xiaomi.gif">
+<img src="https://github.com/hyisboy/mi-demo-static-page/blob/master/img/xiaomi.gif">
 

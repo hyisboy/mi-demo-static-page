@@ -578,7 +578,9 @@ color: #ff6700;
 	background:url(../img/see_all_after.png)no-repeat;background-size: 30px;
 	transition: all linear .4s; 
 }
-
+.cont-phone{
+	overflow: hidden;
+}
 .phone-list{
 	width: 1226px; height: 628px;margin: 0 auto;
 }
